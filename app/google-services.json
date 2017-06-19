@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "139968288057",
+    "firebase_url": "https://birdr-7da66.firebaseio.com",
+    "project_id": "birdr-7da66",
+    "storage_bucket": "birdr-7da66.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:139968288057:android:a55d74aa3a9dda43",
+        "android_client_info": {
+          "package_name": "ie.dit.birdr"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "139968288057-t06q5lloean9i8cb7j1do2iapv7h436h.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "ie.dit.birdr",
+            "certificate_hash": "477feecd9c46174a4dcffa8716d6a862d99f50a9"
+          }
+        },
+        {
+          "client_id": "139968288057-nn3rnlcp882hstmj3v3qlif7joii5ifp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDr8hNVLKiVFf9beytZgM4gEsUzMMSALZ4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "139968288057-nn3rnlcp882hstmj3v3qlif7joii5ifp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

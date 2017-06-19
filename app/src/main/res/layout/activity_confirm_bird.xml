@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="ie.dit.birdr.ConfirmBird"
+    android:orientation="vertical"
+    android:background="@color/green">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context="ie.dit.birdr.ConfirmBird"
+        android:orientation="vertical"
+        android:background="@color/green">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Confirm Bird"
+            android:padding="10dp"
+            android:textSize="24sp"
+            android:textColor="@color/white"
+            android:layout_marginBottom="10dp"/>
+    </LinearLayout>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context="ie.dit.birdr.ConfirmBird"
+        android:orientation="vertical"
+        android:background="@color/white">
+
+        <TextView
+            android:id="@+id/confirm_bird_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:layout_marginBottom="10dp"
+            android:textSize="24sp"
+            android:text="@string/birdName" />
+
+        <ImageView
+            android:id="@+id/confirmBirdImage"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:src="@drawable/loading"
+            android:layout_marginBottom="20dp"/>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/confirm_bird_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Check-In This Bird"
+        android:onClick="checkInBird"/>
+
+</LinearLayout>

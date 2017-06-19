@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="ie.dit.birdr.YourAccount"
+    android:orientation="vertical"
+    android:background="@color/green">
+
+    <TextView
+        android:id="@+id/YourUsername"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:textSize="24sp"
+        android:textColor="@color/white"/>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="ie.dit.birdr.YourAccount"
+        android:orientation="vertical"
+        android:background="@color/white">
+
+        <TextView
+            android:id="@+id/NumberOfRecords"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:textSize="24sp"
+            android:textColor="@color/green"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_gravity="center"
+            android:layout_margin="5sp"
+            android:background="@color/green"/>
+
+        <TextView
+            android:id="@+id/recentPitures"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:textSize="24sp"
+            android:textColor="@color/green"
+            android:text="Recent Pictures"/>
+
+        <ImageView
+            android:id="@+id/bird1"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:src="@drawable/loading"
+            android:layout_marginBottom="20dp"/>
+
+        <ImageView
+            android:id="@+id/bird2"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:src="@drawable/loading"
+            android:layout_marginBottom="20dp"/>
+
+        <ImageView
+            android:id="@+id/bird3"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:src="@drawable/loading"
+            android:layout_marginBottom="20dp"/>
+
+    </LinearLayout>
+
+</LinearLayout>
